@@ -1,0 +1,21 @@
+.home-bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 88vh;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/home-lg-bg.png');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-family: 'Roboto';
+  padding: 25px;
+  padding-left: 70px;
+  padding-top: 120px;
+}
+@media (max-width: 768px) {
+  .home-bg-container {
+    padding-left: 30px;
+    padding-top: 50px;
+  }
+}
